@@ -1,0 +1,63 @@
+
+
+
+import java.util.*;
+
+public class BarrenMoorGame {
+	
+
+	
+	
+	
+
+	Scanner input;
+	int row;
+	int column;
+	
+	String[][] board;
+	int boardSize;
+	
+	
+
+
+	public static void main(String[] args) 
+
+	{
+	
+		System.out.println("BarrenMoorGame" + "Play");
+		
+			
+		BarrenMoorGame game = new BarrenMoorGame();
+		game.input = new Scanner(System.in);
+		
+			
+		System.out.println("No of lines");
+		
+		while (!game.input.hasNextInt());
+		game.input.next();
+		game.row = game.input.nextInt();
+		
+		
+		System.out.println("No of columns");
+		
+		while (!game.input.hasNextInt());
+				game.input.next();
+				
+				game.column = game.input.nextInt();
+		
+		
+
+
+		
+	}			
+				
+	
+
+		System.out.println(" game Start" );
+		
+	
+
+			
+			
+	
+}
